@@ -1,14 +1,27 @@
-<!doctype html>
-<html>
+{{ define "main" }}
 
-<head>
-    <meta charset="UTF-8">
-    <title>{{ .Title }}</title>
-</head>
+<main>
+    <div class="block introduction">
 
-<body>
-    {{ .Content }}
+        <div class="column left">
+            <img src="{{ default "images/portrait.jpg" .Site.Author.portrait | relURL }}" class="portrait" alt="Portrait" />
+        </div>
 
-</body>
+        <div class="column right">
+            <h1>{{ .Site.Author.name }}</h1>
+            <h2><a href={{ .Site.Author.link }}>{{ .Site.Author.title }}</a></h2>
+            <p>{{ .Content }}</p>
 
-</html>
+            <div class="links">
+                {{- range .Site.Params.links -}}
+                    <a rel="me" href="{{ .url | safeURL }}" title="{{ .title }}">
+                        <span class="{{ .iconset | default "fab" }} {{.iconorigin | default "fa" }}-{{ .icon }}"></span>
+                    </a>
+                {{- end -}}
+            </div>
+
+        </div>
+    </div>
+</main>
+
+{{ end }}
