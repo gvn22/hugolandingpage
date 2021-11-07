@@ -11,11 +11,10 @@
             <h1>{{ .Site.Author.name }}</h1>
             <h2>{{ .Site.Author.title }}</h2>
             <p>{{ .Content }}</p>
-
-            <div class="links">
+            <div class="links" align="left">
                 {{- range .Site.Params.links -}}
                     <a rel="me" href="{{ .url | safeURL }}" title="{{ .title }}">
-                        <span class="{{ .iconset | default "fab" }} {{.iconorigin | default "fa" }}-{{ .icon }}"></span>
+                        <span class="{{ .iconset | default "fab" }} {{.iconorigin | default "fa" }}-{{ .icon }}" />
                     </a>
                 {{- end -}}
             </div>
