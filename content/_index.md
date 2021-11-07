@@ -4,7 +4,7 @@ date: 2021-11-01T12:12:31Z
 #draft: true
 ---
 
-I am a research fellow at the School of Mathematics, University of Leeds. My work centres on computational simulation of complex physical systems with a focus on turbulent fluid flow phenomena.
+I am a research fellow at the School of Mathematics, University of Leeds. My work centres on computational simulation of complex physical systems with a focus on turbulent fluid flows.
 
 [My current research](https://eps.leeds.ac.uk/maths/staff/5840/girish-nivarti) advances a Direct Statistical Simulation framework for predicting zonal jets in planetary atmospheres with close collaborators at the Department of Physics at Brown University and the Department of Applied Mechanics and Theoretical Physics in Cambridge.
 
