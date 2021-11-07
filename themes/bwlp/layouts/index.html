@@ -4,12 +4,11 @@
     <div class="block introduction">
 
         <div class="column left">
-            <img src="{{ default "images/portrait.jpg" .Site.Author.portrait | relURL }}" class="portrait" alt="Portrait" />
+            <img src="{{ default "images/portrait2.jpg" .Site.Author.portrait | relURL }}" class="portrait" alt="Portrait" />
         </div>
 
         <div class="column right">
             <h1>{{ .Site.Author.name }}</h1>
-            <h2>{{ .Site.Author.title }}</h2>
             <p>{{ .Content }}</p>
             <div class="links" align="left">
                 {{- range .Site.Params.links -}}
