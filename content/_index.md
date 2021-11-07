@@ -4,10 +4,10 @@ date: 2021-11-01T12:12:31Z
 #draft: true
 ---
 
-My work involves computational simulation of complex physical systems, with a focus on non-linear fluid flow phenomena.
+I work at the [School of Mathematics, University of Leeds, UK](https://eps.leeds.ac.uk/maths/staff/5840/girish-nivarti). My work involves computational simulation of complex physical systems, with a focus on fluid flow phenomena.
 
-I develop the underlying mathematical models and softwares that enable such simulations, and I also analyse simulation data that are aimed at addressing specific physical problems.
+I develop mathematical models and softwares that enable simulations, and I also analyse simulation data to decipher the mechanisms relevant to the physics of the problem at hand. By nature, this work lies at the intersection of mathematics, physics and software engineering.
 
-Currently, I am [building a statistical simulation technique](https://github.com/gvn22/ZonalFlow.jl) with applications to flow transport in planetary atmospheres and nuclear fusion reactors. Previously, I [investigated theoretical problems in turbulent combustion](https://www.repository.cam.ac.uk/handle/1810/270335) with applications to flame propagation in power gas turbines and Type Ia supernovae.
+<!-- Currently, I am building a [Direct Statistical Simulation framework](https://github.com/gvn22/ZonalFlow.jl) with applications to zonal flow transport in planetary atmospheres and nuclear fusion reactors. My PhD thesis investigated a [theoretical problem in turbulent combustion](https://www.repository.cam.ac.uk/handle/1810/270335) with applications to flame speeds in power gas turbines and Type Ia supernovae. -->
 
-I served as the founding representative for the [Early Career Researcher Forum](https://fluids.leeds.ac.uk/lifd-sub-groups/early-career-researcher-forum/) for fluid dynamics at the University of Leeds. 
+I founded the [Early Career Researcher Forum](https://fluids.leeds.ac.uk/lifd-sub-groups/early-career-researcher-forum/) as part of the Leeds Institute for Fluid Dynamics.
