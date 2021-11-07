@@ -1,7 +1,6 @@
-// Colours
 $color-background: {{ .Site.Params.colors.background | default "#fff" }};
 $color-foreground: {{ .Site.Params.colors.foreground | default "#000" }};
-$color-hover: {{ .Site.Params.colors.hover | default "#333" }};
+$color-hover: {{ .Site.Params.colors.hover | default "#666" }};
 
 @import 'bwlp/variables';
 @import 'bwlp/base';

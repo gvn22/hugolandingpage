@@ -8,7 +8,6 @@ theme = 'bwlp'
 [Author]
   name = "Girish Nivarti"
   title = "Research Scientist"
-  link = "https://eps.leeds.ac.uk/maths/staff/5840/girish-nivarti"
 
 [params]
 
@@ -16,7 +15,7 @@ theme = 'bwlp'
       iconset = "fas"
       icon = "envelope"
       title = "E-mail"
-      url = "g.v.nivarti@leeds.ac.uk"
+      url = "mailto:g.v.nivarti@leeds.ac.uk"
 
   [[params.links]]
       iconset = "ai"
