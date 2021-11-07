@@ -19,6 +19,13 @@ theme = 'bwlp'
       url = "g.v.nivarti@leeds.ac.uk"
 
   [[params.links]]
+      iconset = "ai"
+      iconorigin = "ai"
+      icon = "researchgate-square"
+      title = "researchgate"
+      url = "https://www.researchgate.net/profile/Girish-Nivarti"
+
+  [[params.links]]
       icon = "github"
       title = "Github"
       url = "https://github.com/gvn22"
