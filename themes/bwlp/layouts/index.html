@@ -5,12 +5,7 @@
 
         <div class="column left">
             <img src="{{ default "images/portrait2.jpg" .Site.Author.portrait | relURL }}" class="portrait" alt="Portrait" />
-        </div>
-
-        <div class="column right">
-            <h1>{{ .Site.Author.name }}</h1>
-            <p>{{ .Content }}</p>
-            <div class="links" align="left">
+            <div class="links" align="center">
                 {{- range .Site.Params.links -}}
                     <a rel="me" href="{{ .url | safeURL }}" title="{{ .title }}">
                         <span class="{{ .iconset | default "fab" }} {{.iconorigin | default "fa" }}-{{ .icon }}" />
@@ -18,6 +13,11 @@
                 {{- end -}}
             </div>
 
+        </div>
+
+        <div class="column right">
+            <h1>{{ .Site.Author.name }}</h1>
+            <p>{{ .Content }}</p>
         </div>
     </div>
 </main>

@@ -14,4 +14,4 @@ I am a research fellow at the School of Mathematics, University of Leeds. My wor
 
 <!-- By nature, this work lies at the intersection of mathematics, physics and software engineering. -->
 
-In 2020, I founded the [Early Career Researcher Forum](https://fluids.leeds.ac.uk/lifd-sub-groups/early-career-researcher-forum/) at the Leeds Institute for Fluid Dynamics. Find more on the links below.
+In 2020, I founded the [Early Career Researcher Fluids Forum](https://fluids.leeds.ac.uk/lifd-sub-groups/early-career-researcher-forum/) as part of the Leeds Institute for Fluid Dynamics.
