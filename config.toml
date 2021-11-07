@@ -1,4 +1,6 @@
 baseURL = 'https://gvn22.github.io'
+relativeURLs = true
+canonifyURLs = true
 languageCode = 'en-uk'
 title = 'Girish Nivarti'
 theme = 'bwlp'
