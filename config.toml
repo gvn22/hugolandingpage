@@ -1,4 +1,27 @@
 baseURL = 'https://gvn22.github.io'
-languageCode = 'en-us'
+languageCode = 'en-uk'
 title = 'Girish Nivarti'
 theme = 'bwlp'
+
+[Author]
+  name = "Girish Nivarti"
+  title = "Research Scientist"
+  link = "https://eps.leeds.ac.uk/maths/staff/5840/girish-nivarti"
+
+[params]
+
+  [[params.links]]
+      iconset = "fas"
+      icon = "envelope"
+      title = "E-mail"
+      url = "g.v.nivarti@leeds.ac.uk"
+
+  [[params.links]]
+      icon = "github"
+      title = "Github"
+      url = "https://github.com/gvn22"
+
+  [[params.links]]
+      icon = "linkedin"
+      title = "Linked-in"
+      url = "https://uk.linkedin.com/in/girish-nivarti-phd"
